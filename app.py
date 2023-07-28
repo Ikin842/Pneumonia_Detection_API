@@ -3,17 +3,8 @@ import torch
 import torch.nn as nn
 from torchvision import transforms
 from PIL import Image
-from werkzeug.utils import secure_filename
-import os
 
 app = Flask(__name__)
-
-import torch
-import torch.nn as nn
-
-# Arsitektur Pneumonia
-import torch
-import torch.nn as nn
 
 class PneumoniaNet(nn.Module):
     def __init__(self, num_classes):
