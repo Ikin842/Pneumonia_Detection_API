@@ -1,6 +1,7 @@
 gunicorn
+python==3.9.10
 flask==2.3.2
-torch==2.0.1
-torchvision==0.15.2
-pillow==10.0.0
+torch==1.12.1
+torchvision==0.13.1
+pillow==9.2.0
 protobuf==3.20.*
